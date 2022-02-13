@@ -60,5 +60,5 @@
     "mini-css-extract-plugin": "2.4.5",
     "webpack-bundle-tracker": "^1.4.0"
   },
-  "proxy": "https://voca-back.herokuapp.com"
+  "proxy": " https://voca-back.herokuapp.com/api/v1/users/login/"
 }
