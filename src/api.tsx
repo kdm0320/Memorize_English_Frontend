@@ -2,7 +2,7 @@ import axios from "axios";
 
 import { IUserInfo } from "./atoms";
 
-export const baseUrl = "http://127.0.0.1:8000/api/v1";
+export const baseUrl = "https://voca-back.herokuapp.com/api/v1";
 
 export async function fetchWords(userInfo: IUserInfo) {
   const { data } = await axios.get(`${baseUrl}/words/`, {
