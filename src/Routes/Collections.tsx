@@ -319,8 +319,6 @@ function Collection() {
     fetchCollections(userInfo).then((value) => {
       const temp = value;
       setUserCollections(value);
-      console.log(Array.isArray(value));
-      console.log(value);
     });
   }, []);
 
@@ -657,7 +655,7 @@ function Collection() {
         </AnimatePresence>
         <AnimatePresence>
           <WordSetBox>
-            {userCollections.map((collection) => (
+            {userCollections?.map((collection) => (
               <CollectionSet
                 key={collection.pk}
                 layoutId={String(collection.pk)}
