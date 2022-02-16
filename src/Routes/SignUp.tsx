@@ -116,7 +116,7 @@ function SignUp() {
                   required: "필수 항목입니다.",
                   pattern: {
                     value: /^[a-z]+[a-z0-9]{5,19}$/g,
-                    message: "6~20자 영문자 또는 숫자여야합니다. ",
+                    message: "6~20자 영어 소문자 또는 숫자여야합니다. ",
                   },
                 })}
                 placeholder="아이디(ID)"
