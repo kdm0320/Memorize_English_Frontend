@@ -62,6 +62,8 @@
 
 - ### Backend: https://github.com/kdm0320/Memorize_English_Backend.git
 
+- ### 개발용: https://github.com/kdm0320/Memorize_English
+
 ## Reference
 
 - ### 토익 빈출영어단어 327
